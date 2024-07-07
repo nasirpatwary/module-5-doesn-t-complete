@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin:0px;
+    padding: 0px;
+}
+.btn-content{
+    text-align: center;
+}
+.btn{
+    padding: 14px 18px;
+    color: white;
+    border-radius: 4px;
+    background: rgb(82, 195, 3);
+    color: rgb(255, 255, 255);
+    border: none;
+    font-family: "Work Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: center;
+    cursor: pointer;
+}
+#hero{
+    height: 653px;
+    background-image:linear-gradient(0.00deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%), url('../assets/hero-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#hero .text-content{
+    width: 726px;
+}
+#hero .text-content #subtitle{
+    color: rgb(255, 255, 255);
+    font-family: "Work Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    opacity: 0.8;
+    margin-bottom: 5px;
+}
+#hero .text-content .heading{
+    color: rgb(255, 255, 255);
+    font-family: "Work Sans", sans-serif;
+    font-size: 45px;
+    font-weight: 700px;
+    line-height: 55px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+#hero .text-content .second-title{
+    color: rgb(255, 255, 255);
+    font-family: "Work Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 16px;
+    text-align: center;
+    opacity: 0.7;
+    margin-bottom: 16px;
+}
+.card-box{
+    width: 800px;
+    margin: 55px auto;
+}
+.child{
+    width: 500px;
+    margin: auto;
+}
+.card-box .title{
+    font-family: "Work Sans", sans-serif;
+    color: rgb(16, 16, 16);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: center;
+    opacity: 0.6;
+    margin-bottom: 16px
+}
+.card-box .box-head{
+    font-family: "Work Sans", sans-serif;
+    color: rgb(16, 16, 16);
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.card{
+    width: 255px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.card .images img{
+    width: 100%;
+}
+.card-box .span{
+    padding: 5px 8px;
+    border-radius: 4px;
+    background: rgba(82, 195, 3, 0.15);
+    color: rgb(16, 16, 16);
+    font-family: "Work Sans", sans-serif; 
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: center;
+} 
+.card .text-center{
+    text-align: center;
+    opacity: 0.7;
+
+}
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.card-box .btn-bottom{
+    text-align: center;
+}
+
+#main-container .img-card img{
+    width: 662px;
+    margin-bottom: 35px;
+}
+#main-container .title-card{
+    width: 662px;
+    
+}
+#main-container .cardTitle{
+    font-family: "Work Sans", sans-serif; 
+    color: rgb(16, 16, 16);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#main-container .do-not{
+    color: rgb(16, 16, 16);
+    font-family: "Work Sans", sans-serif; 
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.6;
+    margin-bottom: 16px;
+}
+#main-container .flex-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#main-container .border{
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    padding: 15px ;
+    text-align: center;
+    margin-bottom: 16px;
+}
+#main-container .flexible{
+    display: flex;
+   justify-content: center;
+   gap: 10px;
+}
+#main-container .follow{
+    color: rgb(16, 16, 16);
+    font-family: "Work Sans", sans-serif; 
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+}
+.background{
+    background-image: linear-gradient(45deg rgb(16, 16, 16) 50%,rgba(16, 16, 16, 0) 50%), url('../assets/social-bg.png');
+}
+.background .border-top-bottom{
+    margin-bottom: 50px;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    padding: 15px ;
+    text-align: center;
+    margin-bottom: 16px;
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.6;
+}
+.background .do-not{
+    color: rgb(16, 16, 16);
+    font-family: "Work Sans", sans-serif; 
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.6;
+    margin-bottom: 16px;
+}
+.background .always{
+    font-family: "Work Sans", sans-serif; 
+    color: rgb(16, 16, 16);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.section-border{
+    width: 662px;
+    margin: auto;
+}
+
